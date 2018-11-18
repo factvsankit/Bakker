@@ -580,7 +580,7 @@ label{
       margin-top: 0;
       font-size: 30px;
       font-weight: 600;
-      padding-bottom: 25px;
+      padding-bottom: 20px;
       margin-bottom: 0;
       &:after{
         position: absolute;
@@ -880,6 +880,7 @@ label{
 }
 
 .lg-img-text-section{
+  overflow-x: hidden;
   .ltlir-text{
     .lt-absolute{
       z-index: 1;
@@ -897,9 +898,9 @@ label{
         h3{
           margin-top: 0;
           font-weight: 600;
-          padding-bottom: 25px;
+          padding-bottom: 20px;
           position: relative;
-          margin-bottom: 30px;
+          margin-bottom: 25px;
           line-height: 1.4;
           font-size: 30px;
           &:after{
