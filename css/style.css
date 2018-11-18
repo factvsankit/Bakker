@@ -1,0 +1,1459 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900");
+/* line 6, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+}
+
+/* line 15, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+body, html {
+  height: 100%;
+}
+
+/* line 19, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+body {
+  background: #ffffff;
+  color: #666666;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+/* line 31, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+ul {
+  list-style: none;
+}
+
+/* line 34, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+ul li a {
+  text-decoration: none;
+}
+
+/* line 37, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+ul li a:hover {
+  text-decoration: none;
+}
+
+/* line 43, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+ul.floated-list {
+  margin-bottom: 0;
+}
+
+/* line 45, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+ul.floated-list li {
+  float: left;
+  display: block;
+}
+
+/* line 48, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+ul.floated-list li a {
+  display: block;
+}
+
+/* line 51, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+ul.floated-list li ul {
+  margin-bottom: 0;
+}
+
+/* line 53, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+ul.floated-list li ul li {
+  float: none;
+}
+
+/* line 60, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+a {
+  color: inherit;
+  -webkit-transition: all 0.35s ease-out;
+  -o-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out;
+}
+
+/* line 63, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+a:hover {
+  opacity: 0.7;
+}
+
+/* line 67, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+button[type="submit"],
+input[type="submit"] {
+  -webkit-transition: all 0.35s ease-out;
+  -o-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out;
+}
+
+/* line 70, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+  opacity: 0.7;
+}
+
+/* line 74, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+img {
+  border: 0;
+}
+
+/* line 78, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #222433;
+}
+
+/* line 82, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+/* line 85, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+h1 {
+  font-size: 26px;
+}
+
+/* line 89, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+h2 {
+  font-size: 24px;
+}
+
+/* line 93, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+h3 {
+  font-size: 22px;
+}
+
+/* line 97, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+h4 {
+  font-size: 20px;
+}
+
+/* line 101, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+h5 {
+  font-size: 18px;
+}
+
+/* line 105, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+h6 {
+  font-size: 16px;
+}
+
+/* line 109, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
+  color: inherit;
+}
+
+/* line 112, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+label {
+  font-weight: normal;
+}
+
+/* line 115, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.font8px {
+  font-size: 8px;
+}
+
+/* line 118, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.font9px {
+  font-size: 9px;
+}
+
+/* line 121, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.font10px {
+  font-size: 10px;
+}
+
+/* line 124, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.font11px {
+  font-size: 11px;
+}
+
+/* line 127, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.font12px {
+  font-size: 12px;
+}
+
+/* line 130, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.font13px {
+  font-size: 13px;
+}
+
+/* line 133, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.font14px {
+  font-size: 14px;
+}
+
+/* line 136, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.font15px {
+  font-size: 15px;
+}
+
+/* line 139, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.font16px {
+  font-size: 16px;
+}
+
+/* line 142, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.bdrs0 {
+  border-radius: 0;
+}
+
+/* line 145, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.bdrs5px {
+  border-radius: 5px;
+}
+
+/* line 148, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.bdrs8px {
+  border-radius: 8px;
+}
+
+/* line 151, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.bdrs10px {
+  border-radius: 10px;
+}
+
+/* line 154, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.icon-text {
+  margin-right: 8px;
+}
+
+/* line 156, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.icon-text.sm {
+  margin-right: 4px;
+}
+
+/* line 160, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.weight-300 {
+  font-weight: 300;
+}
+
+/* line 163, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.weight-400 {
+  font-weight: 400;
+}
+
+/* line 166, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.weight-500 {
+  font-weight: 500;
+}
+
+/* line 169, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.weight-600 {
+  font-weight: 600;
+}
+
+/* line 172, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.weight-700 {
+  font-weight: 700;
+}
+
+/* line 175, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.weight-800 {
+  font-weight: 800;
+}
+
+/* line 178, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.weight-900 {
+  font-weight: 900;
+}
+
+/* line 181, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.font-style-italic {
+  font-style: italic;
+}
+
+/* line 184, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.font-style-normal {
+  font-style: normal;
+}
+
+/* line 187, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.clear {
+  clear: both;
+}
+
+/* line 190, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.inline {
+  display: inline;
+}
+
+/* line 193, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.block {
+  display: block;
+}
+
+/* line 196, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.inline-block {
+  display: inline-block;
+}
+
+/* line 199, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.lowercase {
+  text-transform: lowercase;
+}
+
+/* line 202, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* line 205, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* line 208, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.div-center {
+  display: table;
+  margin: 0 auto;
+}
+
+/* line 212, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.fullHeight {
+  height: 100%;
+}
+
+/* line 215, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.mytable {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 220, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.fixed-table-layout {
+  table-layout: fixed;
+}
+
+/* line 223, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.table-cell {
+  display: table-cell;
+}
+
+/* line 226, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.va-middle {
+  vertical-align: middle;
+}
+
+/* line 229, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.va-top {
+  vertical-align: top;
+}
+
+/* line 232, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.va-bottom {
+  vertical-align: bottom;
+}
+
+/* line 235, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.static {
+  position: static;
+}
+
+/* line 238, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.relative {
+  position: relative;
+}
+
+/* line 241, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.absolute {
+  position: absolute;
+}
+
+/* line 244, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.fixed {
+  position: fixed;
+}
+
+/* line 247, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.cover {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 250, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.circle {
+  border-radius: 50%;
+}
+
+/* line 253, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.m0 {
+  margin: 0 !important;
+}
+
+/* line 256, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+/* line 259, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+
+/* line 262, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+/* line 265, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+/* line 268, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+
+/* line 271, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.mb-50 {
+  margin-bottom: 50px !important;
+}
+
+/* line 274, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+/* line 277, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.mt-10 {
+  margin-top: 10px !important;
+}
+
+/* line 280, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+/* line 283, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.mt-30 {
+  margin-top: 30px !important;
+}
+
+/* line 286, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.mt-40 {
+  margin-top: 40px !important;
+}
+
+/* line 289, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.mt-50 {
+  margin-top: 50px !important;
+}
+
+/* line 292, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.my-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* line 296, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.my-10 {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+/* line 300, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.my-20 {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+/* line 304, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.my-30 {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+
+/* line 308, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.my-40 {
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+}
+
+/* line 312, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.my-50 {
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+}
+
+/* line 316, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+/* line 319, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.pb-10 {
+  padding-bottom: 10px !important;
+}
+
+/* line 322, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.pb-20 {
+  padding-bottom: 20px !important;
+}
+
+/* line 325, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.pb-30 {
+  padding-bottom: 30px !important;
+}
+
+/* line 328, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.pb-40 {
+  padding-bottom: 40px !important;
+}
+
+/* line 331, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.pb-50 {
+  padding-bottom: 50px !important;
+}
+
+/* line 334, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+/* line 337, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.pt-10 {
+  padding-top: 10px !important;
+}
+
+/* line 340, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.pt-20 {
+  padding-top: 20px !important;
+}
+
+/* line 343, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.pt-30 {
+  padding-top: 30px !important;
+}
+
+/* line 346, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.pt-40 {
+  padding-top: 40px !important;
+}
+
+/* line 349, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.pt-50 {
+  padding-top: 50px !important;
+}
+
+/* line 352, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.py-0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* line 356, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.py-10 {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+/* line 360, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.py-20 {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+/* line 364, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.py-30 {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+}
+
+/* line 368, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.py-40 {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
+/* line 372, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.py-50 {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+
+/* line 376, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.fill {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 381, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.col-xs-20,
+.col-sm-20,
+.col-md-20,
+.col-lg-20 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* line 390, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.col-xs-20 {
+  width: 20%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  /* line 395, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+  .col-sm-20 {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 401, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+  .col-md-20 {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 407, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+  .col-lg-20 {
+    width: 20%;
+    float: left;
+  }
+}
+
+/* line 413, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.fitVid {
+  position: relative;
+  padding-bottom: 56%;
+  height: 0;
+}
+
+/* line 417, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.fitVid iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 427, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.row60 {
+  margin-left: -60px;
+  margin-right: -60px;
+}
+
+/* line 430, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.row60 .column {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/* line 435, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.row30 {
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+/* line 438, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.row30 .column {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* line 443, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.row25 {
+  margin-left: -25px;
+  margin-right: -25px;
+}
+
+/* line 446, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.row25 .column {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* line 451, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.row20 {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+/* line 454, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.row20 .column {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 459, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.row10 {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+/* line 462, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.row10 .column {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 467, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.row7 {
+  margin-left: -7px;
+  margin-right: -7px;
+}
+
+/* line 470, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.row7 .column {
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-bottom: 14px;
+}
+
+/* line 476, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.row5 {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+/* line 479, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.row5 .column {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* line 485, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.form-control {
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.055);
+  border-width: 1px;
+  border-style: solid;
+}
+
+/* line 490, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.form-control[type="button"],
+.form-control[type="submit"],
+.form-control[type="reset"] {
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+/* line 496, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.form-control::-moz-placeholder {
+  color: #c5c5c5;
+  opacity: 1;
+}
+
+/* line 500, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.form-control:-ms-input-placeholder {
+  color: #c5c5c5;
+}
+
+/* line 503, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.form-control::-webkit-input-placeholder {
+  color: #c5c5c5;
+}
+
+/* line 506, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.form-control:focus {
+  box-shadow: none;
+  border-color: #e6570c;
+}
+
+/* line 513, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  left: 0;
+  z-index: 9;
+  padding: 20px 30px;
+  -webkit-transition: padding 0.35s ease-out;
+  -o-transition: padding 0.35s ease-out;
+  transition: padding 0.35s ease-out;
+}
+
+/* line 519, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.header .logo {
+  width: 90px;
+  -webkit-transition: width 0.35s ease-out;
+  -o-transition: width 0.35s ease-out;
+  transition: width 0.35s ease-out;
+}
+
+/* line 524, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.header .mynav ul {
+  position: relative;
+}
+
+/* line 526, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.header .mynav ul li {
+  margin-left: 30px;
+}
+
+/* line 529, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.header .mynav ul.select-language {
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+/* line 532, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.header .mynav ul.select-language:after {
+  position: absolute;
+  height: 10px;
+  width: 2px;
+  background-color: #ffffff;
+  content: "";
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+}
+
+/* line 542, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.header .mynav ul.select-language li {
+  margin-left: 20px;
+}
+
+/* line 545, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.header .mynav ul.select-language li a i {
+  font-size: 16px;
+  margin-left: 3px;
+}
+
+/* line 554, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.header.sticky {
+  background-color: #e6570c;
+  padding: 10px 0;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.075);
+}
+
+/* line 558, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.header.sticky .logo {
+  width: 50px;
+}
+
+/* line 563, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.lg-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+/* line 569, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section {
+  margin-top: 100px;
+  position: relative;
+}
+
+/* line 572, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section .sec-title {
+  position: relative;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* line 579, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section .sec-title h2 {
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 25px;
+}
+
+/* line 584, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section .sec-title h2:after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 70px;
+  background-color: #e6570c;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* line 598, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.banner {
+  height: calc(100vh - 30px);
+  position: relative;
+}
+
+/* line 601, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.banner .b-overlay {
+  z-index: 1;
+}
+
+/* line 604, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.banner .b-content {
+  z-index: 2;
+}
+
+/* line 606, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.banner .b-content .bc-caption {
+  max-width: 570px;
+}
+
+/* line 608, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.banner .b-content .bc-caption .bcc-title {
+  margin-bottom: 30px;
+}
+
+/* line 610, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.banner .b-content .bc-caption .bcc-title h1 {
+  margin-top: 0;
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* line 617, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.banner .b-content .bc-caption .bcc-desc {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+/* line 622, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.banner .b-content .bc-caption .bcc-search {
+  position: relative;
+}
+
+/* line 624, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.banner .b-content .bc-caption .bcc-search input {
+  height: 80px;
+  border-color: #e6e6e6;
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: 0px 10px 21px 0px rgba(0, 0, 0, 0.06);
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 55px;
+}
+
+/* line 634, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.banner .b-content .bc-caption .bcc-search:after {
+  position: absolute;
+  content: "\f002";
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+  left: 25px;
+  font-family: 'FontAwesome';
+  font-size: 18px;
+  color: #e6570c;
+}
+
+/* line 645, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.banner .b-content .bc-caption .bcc-search button[type="submit"],
+.banner .b-content .bc-caption .bcc-search input[type="submit"] {
+  height: 70%;
+  position: absolute;
+  right: 15px;
+  background-color: #e6570c;
+  color: #ffffff;
+  border-radius: 7px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media (max-height: 900px) {
+  /* line 661, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+  .banner .b-content .be-img img {
+    max-height: 600px;
+    margin-top: 15vh;
+  }
+}
+
+/* line 669, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.banner .arrow-down {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  -o-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+  z-index: 2;
+}
+
+/* line 675, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.banner .arrow-down a {
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: block;
+  opacity: 1;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.075);
+}
+
+/* line 683, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.banner .arrow-down a i {
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #e6570c;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* line 695, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-easyness {
+  padding-top: 40px;
+}
+
+/* line 699, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-easyness .se-content .se-listings .se-item {
+  position: relative;
+  padding: 70px 15px;
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: 0px 0px 59px 0px rgba(0, 0, 0, 0.11);
+}
+
+/* line 701, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-easyness .se-content .se-listings .se-item:after {
+  position: absolute;
+  content: "\f054";
+  top: 50%;
+  right: -72px;
+  color: #7cbe31;
+  font-size: 30px;
+  font-family: 'FontAwesome';
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 716, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-easyness .se-content .se-listings .se-item .sei-img img {
+  max-height: 133px;
+}
+
+/* line 720, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-easyness .se-content .se-listings .se-item .sei-title {
+  margin: 25px 0 20px;
+  font-size: 18px;
+  color: #1d1d1d;
+}
+
+/* line 725, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-easyness .se-content .se-listings .se-item .sei-desc {
+  font-size: 16px;
+}
+
+/* line 732, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-easyness .se-content .se-listings .row .col-md-4:last-child .se-item:after {
+  display: none;
+}
+
+/* line 742, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-apps-streak {
+  height: 970px;
+  margin-top: -110px;
+}
+
+/* line 747, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-apps-streak .sas-content .sc-title h2 {
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 25px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* line 754, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-apps-streak .sas-content .sc-title h2:after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 70px;
+  background-color: #e6570c;
+}
+
+/* line 765, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-apps-streak .sas-content .sc-desc {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+/* line 771, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-apps-streak .sas-content .sc-apps ul li {
+  margin-right: 50px;
+  min-width: 80px;
+  text-align: center;
+}
+
+/* line 775, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-apps-streak .sas-content .sc-apps ul li a {
+  display: block;
+  opacity: 1;
+}
+
+/* line 778, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-apps-streak .sas-content .sc-apps ul li a span {
+  display: block;
+}
+
+/* line 780, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-apps-streak .sas-content .sc-apps ul li a span.sca-icon {
+  cursor: pointer;
+  position: relative;
+  z-index: 99;
+  height: 63px;
+  width: 60px;
+  color: #e6570c;
+  margin-left: 10px;
+}
+
+/* line 788, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-apps-streak .sas-content .sc-apps ul li a span.sca-icon:after {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  border-radius: 50%/70% 70% 30% 30%;
+  border: 1px solid #e6570c;
+  margin: 0 auto;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  -webkit-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+
+/* line 800, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-apps-streak .sas-content .sc-apps ul li a span.sca-icon i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  z-index: 2;
+}
+
+/* line 809, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-apps-streak .sas-content .sc-apps ul li a span.sca-text {
+  font-size: 16px;
+  margin-top: 10px;
+  -webkit-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+/* line 817, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-apps-streak .sas-content .sc-apps ul li a:hover .sca-icon:after {
+  background-color: #e6570c;
+}
+
+/* line 820, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-apps-streak .sas-content .sc-apps ul li a:hover .sca-icon i {
+  color: #ffffff;
+}
+
+/* line 824, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.section-apps-streak .sas-content .sc-apps ul li a:hover .sca-text {
+  color: #e6570c;
+}
+
+/* line 835, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.recent-bakeries .owl-dots {
+  display: table;
+  margin: 20px auto 0;
+}
+
+/* line 838, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.recent-bakeries .owl-dots button {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 4px !important;
+  cursor: pointer;
+}
+
+/* line 843, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.recent-bakeries .owl-dots button span {
+  height: 8px;
+  width: 8px;
+  border: 1px solid #e6570c;
+  display: block;
+  border-radius: 50%;
+}
+
+/* line 851, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.recent-bakeries .owl-dots button.active span {
+  height: 12px;
+  width: 12px;
+  background-color: #e6570c;
+}
+
+/* line 861, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.listings .l-img {
+  margin-bottom: 20px;
+}
+
+/* line 863, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.listings .l-img img {
+  border-radius: 5px;
+}
+
+/* line 867, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.listings .l-title {
+  margin-bottom: 20px;
+}
+
+/* line 869, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.listings .l-title h3 {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* line 878, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.lg-img-text-section.lits-left {
+  padding: 90px 0;
+  background-color: #f1f1f1;
+}
+
+/* line 882, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.lg-img-text-section .ltlir-text {
+  z-index: 1;
+}
+
+/* line 884, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.lg-img-text-section .ltlir-text .lt-content {
+  background-color: #fff;
+  padding: 70px 180px 100px 80px;
+  border-radius: 7px;
+  box-shadow: 0px 19px 27px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* line 890, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.lg-img-text-section .ltlir-text .lt-content .ltc-title h3 {
+  margin-top: 0;
+  font-weight: 600;
+  padding-bottom: 25px;
+  position: relative;
+  margin-bottom: 30px;
+  line-height: 1.4;
+  font-size: 30px;
+}
+
+/* line 898, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.lg-img-text-section .ltlir-text .lt-content .ltc-title h3:after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 70px;
+  background-color: #e6570c;
+}
+
+/* line 909, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.lg-img-text-section .ltlir-text .lt-content .ltc-desc {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+/* line 912, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.lg-img-text-section .ltlir-text .lt-content .ltc-desc p {
+  margin-bottom: 0;
+}
+
+/* line 916, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.lg-img-text-section .ltlir-text .lt-content .ltc-cta {
+  margin-top: 30px;
+}
+
+/* line 918, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.lg-img-text-section .ltlir-text .lt-content .ltc-cta a {
+  display: inline-block;
+  padding: 15px 45px;
+  color: #ffffff;
+  border-radius: 10px;
+  background-color: #e6570c;
+  box-shadow: 0px 13px 21px 0px rgba(7, 7, 7, 0.13);
+}
+
+/* line 930, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.lg-img-text-section .ltlir-img img {
+  border-radius: 7px;
+}
+
+/* line 936, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.footer {
+  padding: 60px;
+  position: relative;
+  background-color: #404040;
+}
+
+/* line 940, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.footer .f-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* line 944, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.footer .f-content .f-logo img {
+  max-width: 120px;
+  display: inline-block;
+}
+
+/* line 949, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.footer .f-content .f-bakery-add {
+  margin-top: 40px;
+}
+
+/* line 951, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.footer .f-content .f-bakery-add a {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 13px 21px 0px rgba(7, 7, 7, 0.13);
+  padding: 15px 45px;
+  display: inline-block;
+  color: #e6570c;
+}
+
+/* line 960, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.footer .f-content .f-links {
+  display: table;
+  margin: 0  auto;
+  margin-top: 40px;
+}
+
+/* line 964, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.footer .f-content .f-links ul {
+  margin: 0 -20px;
+}
+
+/* line 966, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.footer .f-content .f-links ul li {
+  padding: 0 20px;
+}
+
+/* line 968, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.footer .f-content .f-links ul li a {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* line 974, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.footer .f-content .f-links.fl-top {
+  position: relative;
+  padding-bottom: 25px;
+}
+
+/* line 977, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.footer .f-content .f-links.fl-top:after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  height: 1px;
+  width: 70px;
+  background-color: #ffffff;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* line 988, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.footer .f-content .f-links.fl-bottom {
+  margin-top: 30px;
+}
+
+/* line 992, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.footer .f-content .payment-info {
+  margin-top: 40px;
+}
+
+/* line 1000, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.theme-ffffff {
+  color: #ffffff !important;
+}
+
+/* line 1003, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.theme-ffffff-bg {
+  background-color: #ffffff !important;
+}
+
+/* line 1006, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.theme-666666 {
+  color: #666666 !important;
+}
+
+/* line 1009, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.theme-666666-bg {
+  background-color: #666666 !important;
+}
+
+/* line 1012, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.theme-e6570c {
+  color: #e6570c !important;
+}
+
+/* line 1015, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.theme-e6570c-bg {
+  background-color: #e6570c !important;
+}
+
+/* line 1018, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.theme-222433 {
+  color: #222433 !important;
+}
+
+/* line 1021, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.theme-222433-bg {
+  background-color: #222433 !important;
+}
+
+/* line 1024, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.theme-000000 {
+  color: #000000 !important;
+}
+
+/* line 1027, /Applications/XAMPP/xamppfiles/htdocs/clients/niels/bakker/html/scss/style.scss */
+.theme-000000-bg {
+  background-color: #000000 !important;
+}
+
+/*# sourceMappingURL=../css/style.map */
