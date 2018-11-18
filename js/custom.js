@@ -42,4 +42,11 @@ $(function(){
 	// 	}
 	// })
 
+	$('.arrow-down a').click(function(e){
+		e.preventDefault();
+		$('body, html').animate({
+			scrollTop: $(window).height()
+		},500)
+	})
+
 })
