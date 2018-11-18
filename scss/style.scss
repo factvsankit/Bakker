@@ -581,6 +581,7 @@ label{
       font-size: 30px;
       font-weight: 600;
       padding-bottom: 25px;
+      margin-bottom: 0;
       &:after{
         position: absolute;
         content:"";
@@ -832,25 +833,29 @@ label{
   }
 }
 .recent-bakeries{
+  padding-top: 60px;
+  .owl-latest-listings{
+    padding-top: 65px;
+  }
   .owl-dots{
     display: table;
-    margin: 20px auto 0;
+    margin: 20px auto 40px;
     button{
       display: table-cell;
       vertical-align: middle;
-      padding: 0 4px !important;
+      padding: 0 5px !important;
       cursor: pointer;
       span{
-        height: 8px;
-        width: 8px;
+        height: 9px;
+        width: 9px;
         border: 1px solid $theme-e6570c;
         display: block;
         border-radius: 50%;
       }
       &.active{
         span{
-          height: 12px;
-          width: 12px;
+          height: 13px;
+          width: 13px;
           background-color: $theme-e6570c;
         }
       }
@@ -865,7 +870,7 @@ label{
     }
   }
   .l-title{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     h3{
       font-size: 14px;
       margin:0;
@@ -875,17 +880,19 @@ label{
 }
 
 .lg-img-text-section{
-  &.lits-left{
-    padding: 90px 0;
-    background-color: #f1f1f1;
-  }
   .ltlir-text{
-    z-index: 1;
+    .lt-absolute{
+      z-index: 1;
+    }
     .lt-content{
       background-color: #fff;
       padding: 70px 180px 100px 80px;
       border-radius: 7px;
       box-shadow: 0px 19px 27px 0px rgba(0, 0, 0, 0.06);
+      @media (max-width: 1600px){
+        padding-right: 100px;
+        padding-left: 50px;
+      }
       .ltc-title{
         h3{
           margin-top: 0;
@@ -929,6 +936,35 @@ label{
   .ltlir-img{
     img{
       border-radius: 7px;
+    }
+  }
+  &.lits-left{
+    padding: 90px 0;
+    background-color: #f1f1f1;
+    .lt-img{
+      .li-figure{
+        height: 600px;
+      }
+    }
+    .lt-content{
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      margin-left: -30px;
+    }
+  }
+  &.lits-right{
+    padding-top: 90px;
+    padding-bottom: 250px;
+
+    background: rgb(225,225,225);
+    background: -moz-linear-gradient(top, rgba(225,225,225,1) 0%, rgba(241,241,241,1) 50%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(225,225,225,1) 0%,rgba(241,241,241,1) 50%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(225,225,225,1) 0%,rgba(241,241,241,1) 50%,rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1e1e1', endColorstr='#ffffff',GradientType=0 );
+    .lt-img{
+      .li-figure{
+        height: 700px;
+      }
     }
   }
 }
