@@ -113,7 +113,12 @@ $(function(){
 				$(this).find('.pi-title,.pi-desc,.pi-icons,.pi-price-cart').unwrap('<div class="wrapped-detail table-cell va-middle"></div>');
 			});
 		}
-	})
+	});
+
+	// Select to Dropdown
+	if($('.selectpicker').length>0){
+		$('.selectpicker').selectpicker();
+	}
 
 
 })
