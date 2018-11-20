@@ -1436,6 +1436,9 @@ label{
         }
         span{
           display: block;
+          i{
+            margin-right: 5px;
+          }
           &.openings{
             i{
               color: #10d91a;
