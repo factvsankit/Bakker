@@ -36,6 +36,18 @@
 </head>
 <body class="bakker-store">
 
+  <div class="body-inactive fixed cover"></div>
+	<div class="offcanvas">
+		<div class="coff absolute"> <a href="">
+			<img src="images/csb.png" width="22"> </a></div>
+			<div class="nano">
+				<div class="nano-content">
+					<div class="ext-elements"><!--Extra Elements will be Injected Dynamically--></div>
+					<!-- Dynamic Injection of Menu -->
+				</div>
+			</div>
+	</div>
+
   <header class="header absolute vv-light-opac">
     <div class="mytable">
       <div class="logo table-cell va-middle">
@@ -58,7 +70,7 @@
         </ul>
       </div>
       <div class="mynav table-cell va-middle">
-        <ul class="clearfix select-language pull-right">
+        <ul class="clearfix cart-selected pull-right">
           <li>
             <a href="" class="cart-icon">
               <i class="fa fa-shopping-cart"></i>
@@ -75,6 +87,9 @@
           </li>
         </ul>
       </div>
+      <div class="toggle table-cell va-middle">
+				<a href="" class="visible-xs toggle-black"><span></span></a>
+			</div>
     </div>
   </header>
   <main class="main">
@@ -125,7 +140,7 @@
     <section class="store-p-listings">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-4 col-lg-3">
             <form action="">
               <aside class="aside">
                 <div class="spl-filter">
@@ -210,11 +225,11 @@
               </aside>
             </form>
           </div>
-          <div class="col-md-9">
+          <div class="col-md-8 col-lg-9">
             <div class="sftitle-search-sortings">
               <div class="mytable fixed-table-layout">
                 <div class="sf-title table-cell va-middle">
-                  <a href="" class="bt-list">
+                  <a href="" class="bt-list hidden-xs hidden-sm">
                     <i class="fa fa-arrow-left"></i> &nbsp;Back to list
                   </a>
                 </div>
@@ -234,7 +249,7 @@
             </div>
             <div class="listings p-listings">
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                   <div class="pl-item item-available">
                     <div class="pi-img wrap-single">
                       <a href=""><img src="images/product-lg.jpg" alt="Hangtown fry" class="img-responsive" style="width: 100%;" /></a>
@@ -244,7 +259,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                   <div class="pl-item pl-item-detail">
                     <div class="pid-title">
                       <h2>Fresh Zoet brood</h2>
@@ -272,7 +287,7 @@
                               <option value="1">Product sheet</option>
                             </select>
                           </div>
-                          <div class="pei-available-info">
+                          <div class="pei-available-info table-cell va-middle">
                             <div class="mytable">
                             <div class="table-cell va-middle pai-ico"><i class="fa fa-clock-o"></i></div>
                             <div class="table-cell va-middle pai-text">Available in <br> 2 days</div>
@@ -326,7 +341,7 @@
                                     </ul>
                                   </div>
                                 </div>
-                                <div class="pi-cart table-cell va-middle">
+                                <div class="pi-cart pid-btn table-cell va-middle">
                                   <button type="submit" class="uppercase">Add to cart</button>
                                 </div>
                               </div>
