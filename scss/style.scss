@@ -722,6 +722,7 @@ label{
 .banner{
   height: calc(100vh - 30px);
   position: relative;
+  background-position: top center;
   @media (max-width: 992px){
     height: 80vh;
   }
@@ -830,7 +831,6 @@ label{
   }
   &.page-banner{
     height: 550px;
-    background-position: top center;
     @media (max-width: 767px){
       height: 340px;
     }
