@@ -155,5 +155,35 @@ $(function(){
 		$('.selectpicker').selectpicker();
 	}
 
+	// Language Dropdown
+	$('.select-language > li > a').click(function(e){
+
+		ifThisHasDD = $(this).parent().children('ul').length;
+		ifThisIsAlreadyOpen = $(this).parent().children('ul').css('display');
+		if(ifThisHasDD === 1){
+			e.preventDefault();
+			if(ifThisIsAlreadyOpen == 'none'){
+				$(this).parent().children('ul').stop().slideDown(300);
+				$('<div class="lang-dd"></div>').prependTo('body');
+			}
+			else{
+				$(this).parent().children('ul').stop().slideUp(300);
+				$('.lang-dd').remove();
+			}
+		}
+	})
+
+	// closing Language on clicking outside
+	$(document).on('click','.lang-dd',function(){
+		$('.languages').stop().slideUp(300);
+		$('.lang-dd').remove();
+	})
+
+	// Changing Language Flag
+	$('.select-language .languages button').click(function(){
+		currentFlag = $(this).children('img').attr('src');
+		$('.select-language > li > a').find('img').attr('src',currentFlag);
+	})
+
 
 })
