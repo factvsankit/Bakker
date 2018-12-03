@@ -591,7 +591,7 @@ label{
             color: #3a3c51;
             position: relative;
             img{
-              height: 18px;
+              max-height: 18px;
             }
             i{
               font-size: 16px;
@@ -656,7 +656,7 @@ label{
                 text-align: left;
                 img{
                   margin-right: 10px;
-                  max-width: 18px;
+                  max-height: 18px;
                 }
               }
               &:last-child{
