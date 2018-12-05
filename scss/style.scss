@@ -1525,7 +1525,7 @@ label{
         }
         .sc-grid-view-option{
           margin-left: 10px;
-          @media (max-width: 767px){
+          @media (max-width: 1199px){
             display: none;
           }
           .sg-grid{
@@ -1735,14 +1735,20 @@ label{
         }
       }
       .pi-title{
+          overflow: hidden;
+          width: 95%;
         h3{
           font-size: 18px;
           font-weight: 500;
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          max-width: 95%;
           line-height: 1.3;
+          white-space: nowrap;
+          width: 100%;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          a{
+            display: inline-block;
+            max-width: 100%;
+          }
         }
       }
       .pi-desc{
@@ -1787,6 +1793,7 @@ label{
           color: #222222;
           display: block;
           margin-bottom: -5px;
+          min-height: 22px;
         }
         .pi-price{
           .pp-pricing{
@@ -2153,7 +2160,7 @@ label{
     .row{
       .col-lg-4:nth-child(3n+1){
         clear: none;
-        @media (min-width: 993px){
+        @media (min-width: 1200px){
           clear: left;
         }
       }
