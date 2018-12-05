@@ -1445,6 +1445,10 @@ label{
         }
       }
       &.sort-by{
+        .radio-inline{
+          display: block;
+          margin-left: 0;
+        }
         .checkbox-inline{
           input[type="checkbox"]{
             margin-top: 0;
@@ -1735,6 +1739,11 @@ label{
         h3{
           font-size: 18px;
           font-weight: 500;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          max-width: 95%;
+          line-height: 1.3;
         }
       }
       .pi-desc{
@@ -1773,16 +1782,21 @@ label{
         }
       }
       .pi-price-cart{
+        .pp-old{
+          font-size: 14px;
+          text-decoration: line-through;
+          color: #222222;
+          display: block;
+          margin-bottom: -5px;
+        }
         .pi-price{
           .pp-pricing{
-            span{
-              color: #10d91a;
-              font-size: 18px;
-              font-weight: 500;
-              &:first-child{
-                color: #a7a7a7;
+              .pp-new{
+                font-size: 18px;
+                font-weight: 500;
+                color: #222222;
+                display: block;
               }
-            }
           }
         }
         .pi-in-dc-cart{
@@ -1799,13 +1813,17 @@ label{
                   border: 1px solid #e6e6e6;
                   border-radius: 5px;
                   text-align: center;
-                  @include transition(all, 0.2 s, ease-out);
+                  @include transition(all, 0.35s, ease-out);
                   background-color: transparent;
                 }
-                &.pi-dc{
+                &.pi-dc,
+                &.pi-in{
                   button{
+                    border-color: $theme-e6570c;
                     &:hover{
                       border-color: $theme-e6570c;
+                      color: $theme-ffffff;
+                      background-color: $theme-e6570c;
                     }
                   }
                 }
@@ -1813,15 +1831,6 @@ label{
                   input{
                     &:focus{
                       border-color: $theme-e6570c;
-                    }
-                  }
-                }
-                &.pi-in{
-                  button{
-                    border-color: $theme-e6570c;
-                    &:hover{
-                      background-color: $theme-e6570c;
-                      color: $theme-ffffff;
                     }
                   }
                 }
@@ -1921,19 +1930,7 @@ label{
           }
         }
       }
-      &.item-available{
-        .pi-price-cart{
-          .pi-price{
-            .pp-pricing{
-              span{
-                &:first-child{
-                  color: #10d91a;
-                }
-              }
-            }
-          }
-        }
-      }
+
       &.item-not-available{
         .pi-img{
           .availability{
@@ -2152,6 +2149,20 @@ label{
               border-color: $theme-e6570c;
             }
           }
+        }
+      }
+    }
+    .row{
+      .col-lg-4:nth-child(3n+1){
+        clear: none;
+        @media (min-width: 993px){
+          clear: left;
+        }
+      }
+      .col-lg-4:nth-child(2n+1){
+        clear: none;
+        @media (max-width: 992px){
+          clear: left;
         }
       }
     }
