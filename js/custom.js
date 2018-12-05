@@ -107,7 +107,6 @@ $(function(){
 
 	$(".pi-in-dc .pi-btn").click(function(){
 		currentCount = $(this).closest('.pi-in-dc').find('.pi-count>input').val();
-		console.log(currentCount)
 		subtractCase = $(this).hasClass('pi-dc');
 		additionCase = $(this).hasClass('pi-in');
 
@@ -193,6 +192,18 @@ $(function(){
 	$('.top_header .th-content .tc-close').click(function(){
 		$('.top_header .th-content').slideUp(200);
 		$('header.absolute').css('top',0);
+	});
+
+	// Added to cart Button
+	var cartIsAdded;
+	function addToCartFunction() {
+	    cartIsAdded = setTimeout(function(){ $('.pi-cart').removeClass('added-to-cart') }, 1500);
+	}
+	$('.pi-cart button').click(function(e){
+		clearTimeout(cartIsAdded)
+		e.preventDefault();
+		$(this).parent('.pi-cart').addClass('added-to-cart');
+		addToCartFunction();
 	})
 
 })
