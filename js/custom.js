@@ -185,5 +185,14 @@ $(function(){
 		$('.select-language > li > a').find('img').attr('src',currentFlag);
 	})
 
+	//Allocating top space, when there is information bar in Store Page
+	if($('.top_header').length>0){
+		findBarHeight = $('.top_header').height();
+		$('header.absolute').css('top',findBarHeight);
+	}
+	$('.top_header .th-content .tc-close').click(function(){
+		$('.top_header .th-content').slideUp(200);
+		$('header.absolute').css('top',0);
+	})
 
 })
