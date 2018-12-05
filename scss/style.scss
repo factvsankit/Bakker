@@ -560,6 +560,7 @@ label{
   .mynav{
     ul{
       position: relative;
+      margin-top: 20px;
       li{
         margin-left: 30px;
       }
@@ -661,6 +662,9 @@ label{
             }
           }
         }
+      }
+      &.cart-selected{
+        margin-right: 7px;
       }
     }
   }
