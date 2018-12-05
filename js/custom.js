@@ -134,7 +134,7 @@ $(function(){
 			$('.sg-grid.sg-single').addClass('active');
 			$('.p-listings > .row').addClass('single-line-item');
 			$('.pl-item').each(function(){
-				$(this).children('.wrap-single').wrapAll('<div class="mytable"></div>');
+				$(this).children('.wrap-single').wrapAll('<div class="mytable fixed-table-layout"></div>');
 				$(this).find('.pi-img').wrapAll('<div class="wrapped-img table-cell va-middle"></div>');
 				$(this).find('.pi-title,.pi-desc,.pi-icons,.pi-price-cart').wrapAll('<div class="wrapped-detail table-cell va-middle"></div>');
 			});
@@ -143,7 +143,7 @@ $(function(){
 			$('.sg-grid.sg-multiple').addClass('active');
 			$('.p-listings > .row').removeClass('single-line-item');
 			$('.pl-item').each(function(){
-				$(this).children('.wrap-single').unwrap('<div class="mytable"></div>');
+				$(this).children('.wrap-single').unwrap('<div class="mytable fixed-table-layout"></div>');
 				$(this).find('.pi-img').unwrap('<div class="wrapped-img table-cell va-middle"></div>');
 				$(this).find('.pi-title,.pi-desc,.pi-icons,.pi-price-cart').unwrap('<div class="wrapped-detail table-cell va-middle"></div>');
 			});

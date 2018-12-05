@@ -1345,12 +1345,12 @@ label{
         width: 100%;
         .pl-item{
           .wrapped-img{
-            width: 262px;
+            width: 250px;
           }
           .wrapped-detail{
             padding-left: 40px;
             &>div{
-              max-width: 65%;
+              max-width: 80%;
             }
           }
         }
@@ -1736,7 +1736,7 @@ label{
       }
       .pi-title{
           overflow: hidden;
-          width: 95%;
+          max-width: 240px;
         h3{
           font-size: 18px;
           font-weight: 500;
