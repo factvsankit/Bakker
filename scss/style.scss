@@ -1525,7 +1525,7 @@ label{
       }
       &.sort-filters{
         .ss-content{
-          margin-top: 15px;
+          margin-top: 0;
           .sc-sort{
             .bootstrap-select{
               width: 160px;
@@ -1659,6 +1659,15 @@ label{
       }
       .ss-content{
         float: none !important;
+      }
+    }
+    &.sss-search{
+      border-bottom: 0;
+      .sf-title{
+        h2{
+          margin: 0;
+          font-size: 32px;
+        }
       }
     }
   }
@@ -2129,7 +2138,7 @@ label{
   padding-bottom: 30px;
   padding-left: 25px;
   padding-right: 25px;
-  margin-top: -200px;
+  margin-top: -280px;
   z-index: 2;
   position: relative;
   box-shadow: 0 0 5px 0 rgba(0,0,0,0.23);
