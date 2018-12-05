@@ -197,7 +197,7 @@ $(function(){
 	// Added to cart Button
 	var cartIsAdded;
 	function addToCartFunction() {
-	    cartIsAdded = setTimeout(function(){ $('.pi-cart').removeClass('added-to-cart') }, 1500);
+	    setTimeout(function(){ $('.pi-cart').removeClass('added-to-cart') }, 1500);
 	}
 	$('.pi-cart button').click(function(e){
 		clearTimeout(cartIsAdded)

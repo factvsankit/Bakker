@@ -1855,8 +1855,11 @@ label{
                 @include transition(all, 0.5s, ease-out);
                 overflow: hidden;
               }
-              &:before{
+              &:before,
+              &:after{
                 position: absolute;
+              }
+              &:before{
                 content: "\f00c";
                 font-family: 'FontAwesome';
                 top: 50%;
@@ -1868,11 +1871,20 @@ label{
                 @include transition(all, 0.5s, ease-out);
                 z-index: -1;
               }
+              &:after{
+                content:"";
+                z-index: 2;
+                @include coordinates(0,0,0,0);
+                display: none;
+              }
               &.added-to-cart{
                 &:before{
                     opacity: 1;
                     visibility: visible;
-                    z-index: 1;
+                    z-index: 3;
+                }
+                &:after{
+                  display: block;
                 }
                 button{
                   text-indent: -9999px;
