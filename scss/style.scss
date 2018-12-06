@@ -1365,17 +1365,16 @@ label{
     }
     .allergen-listings{
       ul{
-        margin-left: -10px;
-        margin-right: -10px;
+        margin-left: -3px;
+        margin-right: -3px;
         li{
-          padding-left: 10px;
-          padding-right: 10px;
-          width: 33.33%;
+          padding-left: 3px;
+          padding-right: 3px;
+          width: 14.28%;
           margin-top: 15px;
           span{
             display: block;
             position: relative;
-            width: 50px;
             margin-left: auto;
             margin-right: auto;
             opacity: 0.5;
@@ -1813,9 +1812,6 @@ label{
             padding: 0 1px;
             img{
               width: 25px;
-              &.pi-light{
-                opacity: 0.5;
-              }
             }
           }
         }

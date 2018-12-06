@@ -212,15 +212,9 @@ $(function(){
 		console.log(findTarget)
 		if($(this).is(':checked')){
 			$(this).parent().addClass('checked');
-			$('.pi-icons').each(function(){
-				$(this).find('.'+findTarget).removeClass('pi-light')
-			})
 		}
 		else{
 			$(this).parent().removeClass('checked');
-			$('.pi-icons').each(function(){
-				$(this).find('.'+findTarget).addClass('pi-light')
-			})
 		}
 	})
 
