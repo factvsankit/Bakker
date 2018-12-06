@@ -204,6 +204,24 @@ $(function(){
 		e.preventDefault();
 		$(this).parent('.pi-cart').addClass('added-to-cart');
 		addToCartFunction();
+	});
+
+	// Allergens Filter
+	$('.allergen-listings ul li span input[type="checkbox"]').click(function(){
+		findTarget = $(this).attr('data-allergen-type');
+		console.log(findTarget)
+		if($(this).is(':checked')){
+			$(this).parent().addClass('checked');
+			$('.pi-icons').each(function(){
+				$(this).find('.'+findTarget).removeClass('pi-light')
+			})
+		}
+		else{
+			$(this).parent().removeClass('checked');
+			$('.pi-icons').each(function(){
+				$(this).find('.'+findTarget).addClass('pi-light')
+			})
+		}
 	})
 
 })
