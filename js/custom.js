@@ -133,18 +133,20 @@ $(function(){
 			$('.sg-grid.sg-single').addClass('active');
 			$('.p-listings > .row').addClass('single-line-item');
 			$('.pl-item').each(function(){
-				$(this).children('.wrap-single').wrapAll('<div class="mytable fixed-table-layout"></div>');
-				$(this).find('.pi-img').wrapAll('<div class="wrapped-img table-cell va-middle"></div>');
-				$(this).find('.pi-title,.pi-desc,.pi-icons,.pi-price-cart').wrapAll('<div class="wrapped-detail table-cell va-middle"></div>');
+				$(this).children('.wrap-single').wrapAll('<div class="row"></div>');
+				$(this).find('.pi-img').wrapAll('<div class="wrapped-img col-md-2"></div>');
+				$(this).find('.pi-title,.pi-desc').wrapAll('<div class="wrapped-detail col-md-6"></div>');
+				$(this).find('.pi-icons,.pi-price-cart').wrapAll('<div class="wrapped-carts col-md-4"></div>');
 			});
 		}
 		else{
 			$('.sg-grid.sg-multiple').addClass('active');
 			$('.p-listings > .row').removeClass('single-line-item');
 			$('.pl-item').each(function(){
-				$(this).children('.wrap-single').unwrap('<div class="mytable fixed-table-layout"></div>');
-				$(this).find('.pi-img').unwrap('<div class="wrapped-img table-cell va-middle"></div>');
-				$(this).find('.pi-title,.pi-desc,.pi-icons,.pi-price-cart').unwrap('<div class="wrapped-detail table-cell va-middle"></div>');
+				$(this).children('.wrap-single').unwrap('<div class="row"></div>');
+				$(this).find('.pi-img').unwrap('<div class="wrapped-img col-md-2"></div>');
+				$(this).find('.pi-title,.pi-desc').unwrap('<div class="wrapped-detail col-md-6"></div>');
+				$(this).find('.pi-icons,.pi-price-cart').unwrap('<div class="wrapped-carts col-md-4"></div>');
 			});
 		}
 	});
