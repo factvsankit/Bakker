@@ -1351,15 +1351,34 @@ label{
           .row{
             margin-left: -15px;
             margin-right: -15px;
+              display: flex;
+              align-items: center;
           }
           .wrapped-img{
             // width: 250px;
           }
           .wrapped-detail{
-            &>div{
+            .pi-title{
               h3{
                 max-width: 90%;
-                margin-top: 10px;
+                margin-top: 0;
+                margin-bottom: 7px;
+              }
+            }
+            .pi-desc{
+              margin-bottom: 7px;
+              min-height: auto;
+              p.empty{
+                display: none;
+              }
+            }
+            .pi-icons{
+              ul{
+                li{
+                  img{
+                    max-width: 20px;
+                  }
+                }
               }
             }
           }
@@ -1881,6 +1900,7 @@ label{
       }
       .pi-desc{
         margin-bottom: 20px;
+        min-height: 40px;
         p{
           margin-bottom: 0;
         }

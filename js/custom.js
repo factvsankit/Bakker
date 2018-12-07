@@ -135,8 +135,8 @@ $(function(){
 			$('.pl-item').each(function(){
 				$(this).children('.wrap-single').wrapAll('<div class="row"></div>');
 				$(this).find('.pi-img').wrapAll('<div class="wrapped-img col-md-2"></div>');
-				$(this).find('.pi-title,.pi-desc').wrapAll('<div class="wrapped-detail col-md-6"></div>');
-				$(this).find('.pi-icons,.pi-price-cart').wrapAll('<div class="wrapped-carts col-md-4"></div>');
+				$(this).find('.pi-title,.pi-desc,.pi-icons').wrapAll('<div class="wrapped-detail col-md-6"></div>');
+				$(this).find('.pi-price-cart').wrapAll('<div class="wrapped-carts col-md-4"></div>');
 			});
 		}
 		else{
@@ -145,8 +145,8 @@ $(function(){
 			$('.pl-item').each(function(){
 				$(this).children('.wrap-single').unwrap('<div class="row"></div>');
 				$(this).find('.pi-img').unwrap('<div class="wrapped-img col-md-2"></div>');
-				$(this).find('.pi-title,.pi-desc').unwrap('<div class="wrapped-detail col-md-6"></div>');
-				$(this).find('.pi-icons,.pi-price-cart').unwrap('<div class="wrapped-carts col-md-4"></div>');
+				$(this).find('.pi-title,.pi-desc,.pi-icons').unwrap('<div class="wrapped-detail col-md-6"></div>');
+				$(this).find('.pi-price-cart').unwrap('<div class="wrapped-carts col-md-4"></div>');
 			});
 		}
 	});
