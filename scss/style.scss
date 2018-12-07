@@ -1560,6 +1560,9 @@ label{
             li{
               display: block;
               padding: 5px 0;
+              &:first-child{
+                display: none;
+              }
               a{
                 display: block;
                 padding:0 15px;;
