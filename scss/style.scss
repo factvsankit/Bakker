@@ -1384,6 +1384,11 @@ label{
               }
             }
           }
+          .pi-price-cart{
+            span.pp-old.empty{
+              display: none;
+            }
+          }
         }
         &:last-child{
           .pl-item{
