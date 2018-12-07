@@ -1344,7 +1344,9 @@ label{
       .col-lg-4{
         width: 100%;
         .pl-item{
-          margin-bottom: 25px;
+          margin-bottom: 15px;
+          padding-bottom: 15px;
+          border-bottom: 1px solid #f0f0f0;
           .availability{
             display: none;
           }
@@ -1381,6 +1383,12 @@ label{
                 }
               }
             }
+          }
+        }
+        &:last-child{
+          .pl-item{
+            border-bottom: 0;
+            margin-bottom: 50px;
           }
         }
       }
