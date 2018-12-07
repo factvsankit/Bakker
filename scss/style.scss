@@ -1509,6 +1509,7 @@ label{
       h2{
         font-weight: 500;
         margin-top: 10px;
+        margin-bottom: 0;
       }
       .result-stats{
         margin-bottom: 20px;
@@ -1545,8 +1546,11 @@ label{
             border: 1px solid #e6e6e6;
             border-radius: 5px;
             width: 270px;
-            padding: 11px 12px 11px 30px;
+            padding-left: 30px;
+            padding-right: 12px;
+            height: 44px;
             color: #222222;
+            box-shadow: none !important;
             @media (max-width: 1199px){
               width: 220px;
             }
@@ -1559,8 +1563,48 @@ label{
             top: 50%;
             left: 10px;
             @include translateY(-50%);
-            z-index: 1;
+            z-index: 3;
             color: $theme-e6570c;
+          }
+          input{
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+          }
+          .input-group-btn{
+            width: auto;
+            font-size: inherit;
+            position: static;
+            button{
+              height: 44px;
+              border:0 !important;
+              color: $theme-ffffff;
+              background-color: $theme-e6570c;
+              border: 1px solid #e6e6e6;
+              padding-top: 0;
+              padding-bottom: 0;
+            }
+            .dropdown-menu {
+              box-shadow: 0 0 3px 0 rgba(0,0,0,0.15) !important;
+              width: 100%;
+              &.inner,
+              &.dropdown-menu-right{
+                padding: 8px 0;
+                margin-bottom: 0;
+                li{
+                  display: block;
+                  padding: 5px 0;
+                  a{
+                    display: block;
+                    padding:0 15px;;
+                  }
+                  &:hover{
+                    a{
+                      color: $theme-e6570c;
+                    }
+                  }
+                }
+              }
+            }
           }
         }
         .sc-grid-view-option{
