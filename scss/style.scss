@@ -2003,8 +2003,7 @@ label{
               }
             }
             .pi-cart{
-              position: relative;
-              a,
+              position: relative;              
               button{
                 font-size: 12px;
                 color: $theme-ffffff;
@@ -2088,7 +2087,13 @@ label{
             }
           }
           .pi-cart{
-            padding-left: 28px !important;
+            padding-left: 25px !important;
+            &.pid-options,
+            &.pid-btn{
+              button{
+                width: auto;
+              }
+            }
             &.pid-options{
               a,
               button{
